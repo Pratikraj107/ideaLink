@@ -6,7 +6,7 @@ import { LineChart, BarChart, Smartphone, Target, Zap } from "lucide-react";
 const features = [
   {
     icon: <LineChart className="w-8 h-8 text-purple-500" />,
-    title: "Post a Project (Team Formation Tool)",
+    title: "Post a Project (Team Formation)",
     description: "Solo builders and founders can easily attract collaborators. The structured form ensures clarity and sets expectations for prospective teammates."
   },
   {
@@ -42,7 +42,7 @@ export function FeaturesSection() {
             transition={{ duration: 0.5 }}
             className="text-3xl md:text-4xl font-bold mb-4"
           >
-            Powerful Features
+             Features
           </motion.h2>
           <motion.p 
             initial={{ opacity: 0, y: 20 }}
@@ -50,7 +50,7 @@ export function FeaturesSection() {
             transition={{ duration: 0.5, delay: 0.1 }}
             className="text-gray-600 dark:text-gray-300 text-lg max-w-2xl mx-auto"
           >
-            Everything you need to track and optimize your mobile campaigns
+           Post your project or join one. No resumes. No barriers. Just builders.
           </motion.p>
         </div>
 

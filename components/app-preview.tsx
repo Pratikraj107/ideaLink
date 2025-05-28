@@ -92,7 +92,7 @@ export function AppPreview() {
               className="min-w-full px-2"
             >
               <div className="bg-gray-100 dark:bg-gray-800/70 rounded-3xl shadow-2xl p-10 border border-gray-200 dark:border-gray-700 min-h-[340px] flex flex-col justify-center items-center">
-                <h2 className="text-2xl md:text-3xl font-bold text-gray-900 dark:text-white mb-2 text-center">{slide.title}</h2>
+                <h2 className="text-2xl md:text-3xl  text-gray-900 dark:text-white mb-2 text-center">{slide.title}</h2>
                 <p className="text-gray-500 dark:text-gray-300 text-center mb-4">{slide.description}</p>
                 {slide.content}
               </div>
